@@ -1,5 +1,4 @@
 package Day_2_Operators;
-
 import java.io.*;
 
 class Result {
@@ -14,11 +13,14 @@ class Result {
      */
 
     public static void solve(double meal_cost, int tip_percent, int tax_percent) {
-    // Write your code here
+   // Write your code here
+    double tip = (meal_cost * tip_percent) / 100;
+    double tax = (meal_cost * tax_percent) / 100;
     
-
+    int total_cost = (int) Math.round(meal_cost + tip + tax);
+    System.out.println(total_cost);
+    
     }
-
 }
 
 public class Solution {
@@ -36,4 +38,3 @@ public class Solution {
         bufferedReader.close();
     }
 }
-
