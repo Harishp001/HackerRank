@@ -1,11 +1,9 @@
-package Day_2_Operators;
 import java.io.*;
 
 class Result {
 
     /*
      * Complete the 'solve' function below.
-     *
      * The function accepts following parameters:
      *  1. DOUBLE meal_cost
      *  2. INTEGER tip_percent
